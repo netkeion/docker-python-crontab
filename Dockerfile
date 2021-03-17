@@ -9,4 +9,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 WORKDIR /myapp
 
-CMD [ "run.sh" ]
+CMD [ "/usr/src/app/run.sh" ]
