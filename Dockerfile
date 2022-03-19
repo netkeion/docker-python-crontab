@@ -1,6 +1,6 @@
 FROM python:slim
 
-RUN apt-get update && apt-get -y install --no-install-recommends cron && rm -rf /var/lib/apt/lists/* 
+RUN apt-get update && apt-get -y install --no-install-recommends cron openssh-client && rm -rf /var/lib/apt/lists/* 
 
 WORKDIR /usr/src/app
 

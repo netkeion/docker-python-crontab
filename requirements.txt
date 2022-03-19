@@ -2,3 +2,4 @@ python-telegram-bot
 pysqlite3
 requests
 Flask
+paho-mqtt
